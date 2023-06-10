@@ -25,5 +25,6 @@ int main()
     pthread_join(o1,NULL);
     pthread_join(o2,NULL);
     sem_destroy(&s);
+    printf("EXIT");
     return 0;
  }
