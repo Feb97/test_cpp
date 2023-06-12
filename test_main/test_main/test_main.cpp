@@ -1,9 +1,8 @@
-// test_main.cpp : Questo file contiene la funzione 'main', in cui inizia e termina l'esecuzione del programma.
-//
-
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int c = 0;
+    int* x = NULL;
+    x = (int*) malloc(10 * sizeof(int));
 }
